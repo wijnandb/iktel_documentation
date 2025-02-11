@@ -3,14 +3,17 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-nl:
-  languagecode: nl-nl
-  # contentDir: content
 en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
 
+nl:
+  languagecode: nl-nl
+  contentDir: content/nl
+  title: Nederlandse title, IkTel
+  params:
+    description: Site description in Dutch
 # Uncomment the lines below to configure your website in a second language.
 #zh:
 #  languageCode: zh-Hans
