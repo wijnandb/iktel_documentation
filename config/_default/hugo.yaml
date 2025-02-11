@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "Hugo Docs" # Website name
-baseURL: 'https://example.com/' # Website URL
+title: "IkTel uitleg" # Website name
+baseURL: 'https://wijnandb.github.io/iktel_documentation/' # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -33,7 +33,7 @@ cascade:
     show_related: true
     share: true
     # Just use Breadcrumb for navigation on blog post pages?
-    show_breadcrumb: false
+    show_breadcrumb: true
     header:
       navbar:
         enable: true
@@ -42,7 +42,7 @@ cascade:
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: nl
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
