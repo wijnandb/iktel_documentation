@@ -26,7 +26,7 @@ cascade:
       kind: page
     pager: true
     editable: true
-    hide_date: false
+    hide_date: true
     show_date_updated: true
     reading_time: true
     commentable: true
@@ -53,7 +53,7 @@ removePathAccents: true
 
 build:
   writeStats: true
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 30
 pagination:
   pagerSize: 10
